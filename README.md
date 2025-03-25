@@ -7,15 +7,21 @@ Interactive user interface to input customer details such as Geography, Gender, 
 Predicts churn probability and provides a simple "likely to churn" or "not likely to churn" interpretation.
 Built with Python, Streamlit, TensorFlow, and Pandas.
 
-Installation
 
-Clone this repository or download the code:
-bash
+Prerequisites
+Before running the app, ensure you have the following installed:
 
-Collapse
+Python 3.7 or higher
+Required Python libraries (listed in requirements.txt):
 
-Wrap
+streamlit
 
-Copy
-git clone <repository-url>
-cd <repository-folder>
+numpy
+
+tensorflow
+
+scikit-learn
+
+pandas
+
+pickle
